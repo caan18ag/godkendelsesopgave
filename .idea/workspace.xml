@@ -1,6 +1,146 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="723d53ac-80aa-4058-8ccf-f58d638c1c24" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/opgave3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewNavigationComponents/PreviewScreen.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewNavigationComponents/img/bogreol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewNavigationComponents/img/kommode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewNavigationComponents/img/natbord.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewNavigationComponents/img/skostativ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewNavigationComponents/img/skostativ1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewNavigationComponents/img/skostativ2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewNavigationComponents/img/skostativ3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/NewNavigationComponents/img/spisebord.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1iGm7qTpDZ0kDbJBSFh5NfyOQSr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/NewNavigationComponents" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="723d53ac-80aa-4058-8ccf-f58d638c1c24" name="Default Changelist" comment="" />
+      <created>1601542139547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601542139547</updated>
+      <workItem from="1601542140858" duration="19707000" />
+      <workItem from="1601565007362" duration="7848000" />
+      <workItem from="1601586214278" duration="3823000" />
+      <workItem from="1601649770040" duration="585000" />
+      <workItem from="1602520331167" duration="2019000" />
+      <workItem from="1603219826606" duration="598000" />
+      <workItem from="1603220898920" duration="7000" />
+      <workItem from="1603222078494" duration="87000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="652" height="427" key="GridCell.Tab.0.bottom" timestamp="1601545827006">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="652" height="427" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601545827006" />
+    <state width="825" height="368" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1601544353091" />
+    <state width="652" height="427" key="GridCell.Tab.0.center" timestamp="1601545827004">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="652" height="427" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601545827004" />
+    <state width="825" height="368" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1601544353089" />
+    <state width="652" height="427" key="GridCell.Tab.0.left" timestamp="1601545827002">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="652" height="427" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601545827002" />
+    <state width="825" height="368" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1601544353088" />
+    <state width="652" height="427" key="GridCell.Tab.0.right" timestamp="1601545827005">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="652" height="427" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601545827005" />
+    <state width="825" height="368" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1601544353090" />
+    <state x="748" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1601566726796">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="748" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1601566726796" />
   </component>
 </project>
