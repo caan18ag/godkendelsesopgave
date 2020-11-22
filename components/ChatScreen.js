@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { Text, View, StyleSheet, Image, ScrollView} from 'react-native';
+import {Text, View, StyleSheet, Image} from 'react-native';
 import Icon from 'react-native-vector-icons/SimpleLineIcons';
 import {Ionicons} from "@expo/vector-icons";
 
-/*Eksporterer komponent til TabNavigator i App.js*/
-export default class NewScreen extends Component{
+/* Eksporterer klassen til App.js som pt er tom */
+export default class DeliveryScreen extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text style={{fontSize:25, padding:10}}>Sælg dine egne DIY-møbler</Text>
-                <Ionicons name="ios-heart-empty" size={40} color="black" />
+                <Text style={{fontSize:25, padding:10}}>Dette er chatfunktionen</Text>
+                <Ionicons name="ios-chatbubbles" size={40} color="black" />
             </View>
         )
     }
@@ -29,3 +29,4 @@ const styles = StyleSheet.create({
     },
 
 });
+

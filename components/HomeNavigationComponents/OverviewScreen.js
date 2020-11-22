@@ -11,7 +11,7 @@ export default class OverviewScreen extends Component {
     /*Navigation til Vælg Type*/
     GoToType = (route) => {
         // Når en komponent bliver mounted via navigation, får den en prop ved navn "navigation" som indeholder funktioner mv. til at navigere i appen.
-        this.props.navigation.navigate('Type');
+        this.props.navigation.navigate('Browse');
     };
 
     /* Navigation til valg af mål*/
@@ -28,6 +28,8 @@ export default class OverviewScreen extends Component {
     GoToConfirm = (route) => {
         this.props.navigation.navigate('Confirm');
     }
+
+
 
     render(){
         return (

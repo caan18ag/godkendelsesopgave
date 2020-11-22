@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {View, Text, StyleSheet, Button, Image, TouchableOpacity} from 'react-native';
+import {View, Text, StyleSheet, Button, Image, TouchableOpacity, ScrollView} from 'react-native';
 import {createStackNavigator} from "react-navigation-stack";
 import { Ionicons } from '@expo/vector-icons';
 import Icon from 'react-native-vector-icons/SimpleLineIcons';
@@ -17,35 +17,40 @@ export default class MaterialsScreen extends Component {
     render(){
         return (
             <View style={styles.container}>
-                <View style={styles.containerHeader}>
-                    <Text style={styles.textHeader}>VÆLG MATERIALER OG FARVE FOR DIT SKOSTATIV</Text>
+                <Text style={{fontSize:25, padding:10}}>VÆLG MATERIALER OG FARVE</Text>
+                <ScrollView>
+                <Image style={styles.logo} source = {require('.//img/reol.png')}/>
+
+                <View style={{flexDirection:'row', padding: 10, width:'100%'}}>
+                    <Text style={{fontSize:20, fontWeight:'bold'}}>Stelfarve:</Text>
+                    <Text style={{fontSize:20}}> [ Input felt ]</Text>
                 </View>
 
-                <View style={styles.containerHorizontal}>
-                    <Image style={styles.logo} source = {require('../NewNavigationComponents/img/skostativ1.png')}/>
-                    <Text style={styles.text}>MATERIALE</Text>
-                </View>
-
-                <View style={styles.containerHorizontal}>
-                    <Image style={styles.logo} source = {require('../NewNavigationComponents/img/skostativ1.png')}/>
-                    <Text style={styles.text}>FARVE</Text>
+                <View style={{flexDirection:'row', padding: 10, width:'100%', marginBottom: 30}}>
+                    <Text style={{fontSize:20, fontWeight:'bold'}}>Træfarve:</Text>
+                    <Text style={{fontSize:20}}>  [ Input felt ]</Text>
                 </View>
 
                 <View style={styles.container}>
-                    <View>
-                        <TouchableOpacity style={styles.button} onPress={this.handleGoToTakePhoto} >
-                            <Text style={styles.buttonText} >SE MØBLET I DIT HJEM </Text>
-                            <Icon name="camera" size={20} color="white"/>
+                    <TouchableOpacity style={styles.button2} onPress={this.handleGoToTakePhoto} >
+                        <Text style={styles.buttonText} >SE MØBLET I DIT HJEM </Text>
+                        <Icon name="camera" size={20} color="white"/>
+                    </TouchableOpacity>
 
-                        </TouchableOpacity>
-                    </View>
-                    <View>
-                        <TouchableOpacity style={styles.button} onPress={this.handleGoToConfirm} >
-                            <Text style={styles.buttonText} >GÅ VIDERE</Text>
-                            <Icon name="arrow-right-circle" size={20} color="white"/>
-                        </TouchableOpacity>
-                    </View>
+                    <TouchableOpacity style={styles.button} onPress={this.handleGoToConfirm} >
+                        <Text style={styles.buttonText} >GÅ VIDERE</Text>
+                        <Icon name="arrow-right-circle" size={20} color="white"/>
+                    </TouchableOpacity>
+
+
+
+
+
+
                 </View>
+
+            </ScrollView>
+
             </View>
         );
     };
@@ -66,15 +71,6 @@ const styles2 = StyleSheet.create({
         width: '100%',
     },
 
-    container2: {
-        paddingTop:200,
-        paddingBottom:200,
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: 'white',
-        height:'100%'
-    },
     text: {
         fontSize: 20,
     },
@@ -162,34 +158,35 @@ const styles = StyleSheet.create({
     },
 
     logo: {
-        height: 100,
-        width: 150,
-        marginLeft: 10,
+        height: 375,
+        width: 375,
     },
 
-    logo2: {
-        height: 140,
-        width: 100,
-        marginLeft: 10},
-
-    logo3: {
-        height: 70,
-        width: 140,
-        marginLeft: 16,
-    },
 
     button: {
         //borderWidth: 1,
-        backgroundColor: '#419DFF',
-        margin: 10,
-        borderRadius: 20,
+        backgroundColor: '#009688',
+        margin: 5,
+        borderRadius: 2,
         width: 270,
         height: 40,
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'row',
-        marginTop: 10,
     },
+
+    button2: {
+        //borderWidth: 1,
+        backgroundColor: '#607d8b',
+        margin: 5,
+        borderRadius: 2,
+        width: 270,
+        height: 40,
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'row',
+    },
+
     buttonText: {
         fontSize: 18,
         color: 'white',

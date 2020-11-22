@@ -16,7 +16,8 @@ export default class ConfirmScreen extends Component {
     render(){
         return (
             <View style={styles.container}>
-                <Text style={styles.text}>KOMMER SNART</Text>
+                <Text style={{fontSize:25, padding:10}}>BESTILLING MODTAGET</Text>
+                <Ionicons name="ios-checkmark-circle-outline" size={40} color="green" />
             </View>
         );
     };

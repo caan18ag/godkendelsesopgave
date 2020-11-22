@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: 'white',
     },
-    button: {
+    buttonOld: {
         //borderWidth: 1,
         backgroundColor: '#419DFF',
         margin: 10,
@@ -91,6 +91,18 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         flexDirection: 'row',
     },
+    button: {
+        //borderWidth: 1,
+        backgroundColor: '#009688',
+        margin: 10,
+        borderRadius: 2,
+        width: 220,
+        height: 40,
+        alignItems: 'center',
+        justifyContent: 'center',
+        flexDirection: 'row',
+    },
+
     buttonText: {
         fontSize: 18,
         color: 'white',
